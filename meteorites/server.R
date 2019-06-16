@@ -8,7 +8,6 @@ server <- function(input, output, session) {
       setView(lat = 10, lng = 0, zoom = 2) %>% 
       addProviderTiles("CartoDB.DarkMatter") %>% 
       addCircleMarkers(meteorites$long, meteorites$lat, 
-                       label = meteorites$name,
                        layerId = meteorites$name,
                        popup = meteorites$name, meteorites$mass,
                        popupOptions = (keepInView = TRUE),
