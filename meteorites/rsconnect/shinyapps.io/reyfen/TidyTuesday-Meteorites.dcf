@@ -1,0 +1,12 @@
+name: TidyTuesday-Meteorites
+title: TidyTuesday-Meteorites
+username:
+account: reyfen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 983226
+bundleId: 2156991
+url: https://reyfen.shinyapps.io/TidyTuesday-Meteorites/
+when: 1560695163.65676
+asMultiple: FALSE
+asStatic: FALSE
